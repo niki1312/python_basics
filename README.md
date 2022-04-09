@@ -3,6 +3,8 @@ This is python basics repository in which we found all basic code of python.
 Python is a widely used high-level programming language. To write and execute code in python, we first need to install Python on our system.
 
 PYTHON INSTALL
+
+
 Installing Python on Windows takes a series of few easy steps.
 
 Step 1 − Select Version of Python to Install
