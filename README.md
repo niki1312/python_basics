@@ -1,60 +1,65 @@
 # python_basics
 This is python basics repository in which we found all basic code of python.
-Python Install
-Many PCs and Macs will have python already installed.
+Python is a widely used high-level programming language. To write and execute code in python, we first need to install Python on our system.
 
-To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):
+PYTHON INSTALL
+Installing Python on Windows takes a series of few easy steps.
 
-C:\Users\Your Name>python --version
-To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:
+Step 1 − Select Version of Python to Install
+Python has various versions available with differences between the syntax and working of different versions of the language. We need to choose the version which we want to use or need. There are different versions of Python 2 and Python 3 available.
 
-python --version
-If you find that you do not have Python installed on your computer, then you can download it for free from the following website: https://www.python.org/
+Step 2 − Download Python Executable Installer
+On the web browser, in the official site of python (www.python.org), move to the Download for Windows section.
 
-Python Quickstart
-Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+All the available versions of Python will be listed. Select the version required by you and click on Download. Let suppose, we chose the Python 3.9.1 version.
 
-The way to run a python file is like this on the command line:
+![install_Python](https://user-images.githubusercontent.com/53806378/162581552-fc391bd8-c483-4ccd-88c4-2e9df88c8d0b.jpg)
 
-C:\Users\Your Name>python helloworld.py
-Where "helloworld.py" is the name of your python file.
+On clicking download, various available executable installers shall be visible with different operating system specifications. Choose the installer which suits your system operating system and download the instlaller. Let suppose, we select the Windows installer(64 bits).
 
-Let's write our first Python file, called helloworld.py, which can be done in any text editor.
+The download size is less than 30MB.
 
-helloworld.py
+![install_Python1](https://user-images.githubusercontent.com/53806378/162581577-f5ac58db-5447-4699-afdb-a19b3eb38f81.jpg)
 
-print("Hello, World!")
-Simple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:
+Step 3 − Run Executable Installer
+We downloaded the Python 3.9.1 Windows 64 bit installer.
 
-C:\Users\Your Name>python helloworld.py
-The output should read:
+Run the installer. Make sure to select both the checkboxes at the bottom and then click Install New.
 
-Hello, World!
-Congratulations, you have written and executed your first Python program.
+![install_Python2](https://user-images.githubusercontent.com/53806378/162581599-0d2b3b03-7a32-4139-91dc-dfd24db5a39d.jpg)
+
+On clicking the Install Now, The installation process starts.
+
+![install_Python3](https://user-images.githubusercontent.com/53806378/162581624-7bf4821a-fdc2-4b33-a5d2-cf4380461e76.jpg)
+
+The installation process will take few minutes to complete and once the installation is successful, the following screen is displayed.
+
+![install_Python4](https://user-images.githubusercontent.com/53806378/162581636-53035af3-f646-477c-9c3c-43c1699fb395.jpg)
 
 
+Step 4 − Verify Python is installed on Windows
+To ensure if Python is succesfully installed on your system. Follow the given steps −
 
-The Python Command Line
-To test a short amount of code in python sometimes it is quickest and easiest not to write the code in a file. This is made possible because Python can be run as a command line itself.
+Open the command prompt.
 
-Type the following on the Windows, Mac or Linux command line:
+Type ‘python’ and press enter.
 
-C:\Users\Your Name>python
-Or, if the "python" command did not work, you can try "py":
-C:\Users\Your Name>py
-From there you can write any python, including our hello world example from earlier in the tutorial:
+The version of the python which you have installed will be displayed if the python is successfully installed on your windows.
 
-C:\Users\Your Name>python
-Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>> print("Hello, World!")
-Which will write "Hello, World!" in the command line:
+![install_Python5](https://user-images.githubusercontent.com/53806378/162581649-d20dd827-dc55-49aa-9d28-e35c0757aa37.jpg)
 
-C:\Users\Your Name>python
-Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
-Type "help", "copyright", "credits" or "license" for more information.
->>> print("Hello, World!")
-Hello, World!
-Whenever you are done in the python command line, you can simply type the following to quit the python command line interface:
+Step 5 − Verify Pip was installed
+Pip is a powerful package management system for Python software packages. Thus, make sure that you have it installed.
 
-exit()
+To verify if pip was installed, follow the given steps −
+
+Open the command prompt.
+
+Enter pip –V to check if pip was installed.
+
+The following output appears if pip is installed successfully.
+
+![install_Python6](https://user-images.githubusercontent.com/53806378/162581654-9110db04-9467-47b5-8202-b2736a1c7b0e.jpg)
+
+
+We have successfully installed python and pip on our Windows system.
